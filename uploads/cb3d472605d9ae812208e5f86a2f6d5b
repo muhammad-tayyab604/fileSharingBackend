@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/2117a980e4.js" crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Metrophobic&display=swap" rel="stylesheet">
+
+
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg mt-5 mb-4">
+      <div class="container-fluid gx-5">
+        <a class="navbar-brand me-5" href="#">
+          <img src="images/whitelogo.svg" class="img-fluid toplogo"></a>
+        <button class="navbar-toggler ml-auto float-xs-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rent.html">Rent</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="buy.html">Buy</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Commercial
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="projects.html">Moarch One 1</a></li>
+                <li><a class="dropdown-item" href="projects.html">Moarch Two 2</a></li>
+                <li><a class="dropdown-item" href="projects.html">Moarch Three 3</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="investments.html">Investment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            
+          </ul>
+            <button class="btn new-color text-wrap p-0 m-0 px-3 py-1" type="submit" data-bs-toggle="modal" data-bs-target="#EnquiryModal">
+              <div class="d-flex">
+                  <img src="images/call.svg" class="img-fluid me-2">
+                  <div class="d-flex flex-column">
+                      <p class="mb-0 instant">INSTANT</p>
+                      <p class="mb-0">Enquiry</p> 
+                  </div>
+                  
+              </div>
+              </button>
+            <button class="btn btn-outline-success py-2 ms-3" data-bs-toggle="modal" data-bs-target="#ValuationModal" type="submit">
+              <img src="images/bar.svg" class="img-fluid">
+              Valuation</button>
+
+        </div>
+      </div>
+    </nav>
+
+    <section>
+
+        <div class="container">
+            <img src="images/main.svg" class="img-fluid">
+            <p class="gray-color mt-4 sub-cat">Home /  <span style="color: black;"><b>Our Projects</b></span> </p>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="interested">Our Projects</p>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class=" col-md-9 col-lg-9">
+
+
+                  <div id="projectCarousel1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                     
+                      <div class="carousel-item active">
+
+                        <div class="row gx-0">
+                          <div class="col-md-6 col-lg-5 col-sm-6">
+                              <div class="my-green px-sm-2 p-sm-1 p-lg-3 p-md-1 p-3 p-xl-3 h-100 rounded-start-4">
+                                  <p class="white-text f-size32 mt-sm-1 mt-lg-3 mt-md-1 mt-xl-3 mt-3">MONARCH ONE 1</p>
+                                  <p class="white-text f-size22 mb-sm-0 mb-3 mb-lg-3 mb-xl-3 mb-md-3">Contrary to popular belief, Lorem Ipsum is not simply random text. Lorem Ipsum is not simply random text.</p>
+                                  <a href="insideprojects.html">
+                                    <button class="btn yellow-color rounded-4 sub-cat p-sm-1">Commercial</button></a>
+                                  <div class="d-flex mt-3 mt-md-3 mt-lg-3 mt-xl-3 mt-sm-0">
+                                      <img src="images/local.svg" class="img-fluid localimage me-3">
+                                      <p class="white-text my-1 sub-cat">Bahria Town Phase-7</p>
+                                  </div>
+  
+                              </div>
+                          </div>
+  
+                          <div class="col-md-6 col-lg-7 col-sm-6">
+                              <img src="images/project1.svg" class="img-fluid">
+                          </div>
+                      </div>
+                        
+                        </div>
+
+                        <div class="carousel-item">
+
+                          <div class="row gx-0">
+                            <div class="col-md-6 col-lg-5 col-sm-6">
+                                <div class="my-green px-sm-2 p-sm-1 p-lg-3 p-md-1 p-3 p-xl-3 h-100 rounded-start-4">
+                                    <p class="white-text f-size32 mt-sm-1 mt-lg-3 mt-md-1 mt-xl-3 mt-3">MONARCH ONE 2</p>
+                                    <p class="white-text f-size22 mb-sm-0 mb-3 mb-lg-3 mb-xl-3 mb-md-3">Contrary to popular belief, Lorem Ipsum is not simply random text. Lorem Ipsum is not simply random text.</p>
+                                    <a href="insideprojects.html"><button class="btn yellow-color rounded-4 sub-cat p-sm-1">Commercial</button></a>
+                                    <div class="d-flex mt-3 mt-md-3 mt-lg-3 mt-xl-3 mt-sm-0">
+                                        <img src="images/local.svg" class="img-fluid localimage me-3">
+                                        <p class="white-text my-1 sub-cat">Bahria Town Phase-7</p>
+                                    </div>
+    
+                                </div>
+                            </div>
+    
+                            <div class="col-md-6 col-lg-7 col-sm-6">
+                                <img src="images/project1.svg" class="img-fluid">
+                            </div>
+                        </div>
+                          
+                          </div>
+
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          </div>
+
+
+
+                        </div>
+                        </div>
+
+                    
+
+                        <div id="projectCarousel2" class="carousel slide mt-3" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                           
+                            <div class="carousel-item active">
+      
+                              <div class="row gx-0">
+                                
+        
+                                <div class="col-md-6 col-lg-7 col-sm-6">
+                                    <img src="images/project2.svg" class="img-fluid">
+                                </div>
+
+                                <div class="col-md-6 col-lg-5 col-sm-6">
+                                  <div class="my-yellow px-sm-2 p-sm-1 p-lg-3 p-md-1 p-3 p-xl-3 h-100 rounded-end-4">
+                                      <p class=" f-size32 mt-sm-1 mt-lg-3 mt-md-1 mt-xl-3 mt-3">Garden City Tower</p>
+                                      <p class=" f-size22 mb-sm-0 mb-3 mb-lg-3 mb-xl-3 mb-md-3">Contrary to popular belief, Lorem Ipsum is not simply random text. Lorem Ipsum is not simply random text.</p>
+                                      <a href="insideprojects.html"><button class="btn my-green color-yellow rounded-4 sub-cat p-sm-1">Commercial</button></a>
+                                      <div class="d-flex mt-3 mt-md-3 mt-lg-3 mt-xl-3 mt-sm-0">
+                                          <img src="images/greenlocation.svg" class="img-fluid  me-3 localimage">
+                                          <p class=" my-1 sub-cat">Bahria Town Phase-7</p>
+                                      </div>
+      
+                                  </div>
+                              </div>
+
+                            </div>
+                              
+                              </div>
+      
+                              <div class="carousel-item">
+      
+                                <div class="row gx-0">
+                                  
+          
+                                  <div class="col-md-6 col-lg-7 col-sm-6">
+                                      <img src="images/project2.svg" class="img-fluid">
+                                  </div>
+  
+                                  <div class="col-md-6 col-lg-5 col-sm-6">
+                                    <div class="my-yellow px-sm-2 p-sm-1 p-lg-3 p-md-1 p-3 p-xl-3 h-100 rounded-end-4">
+                                        <p class=" f-size32 mt-sm-1 mt-lg-3 mt-md-1 mt-xl-3 mt-3">Garden City Tower</p>
+                                        <p class=" f-size22 mb-sm-0 mb-3 mb-lg-3 mb-xl-3 mb-md-3">Contrary to popular belief, Lorem Ipsum is not simply random text. Lorem Ipsum is not simply random text.</p>
+                                        <a href="insideprojects.html"><button class="btn my-green color-yellow rounded-4 sub-cat p-sm-1">Commercial</button></a>
+                                        <div class="d-flex mt-3 mt-md-3 mt-lg-3 mt-xl-3 mt-sm-0">
+                                            <img src="images/greenlocation.svg" class="img-fluid  me-3 localimage">
+                                            <p class=" my-1 sub-cat">Bahria Town Phase-7</p>
+                                        </div>
+        
+                                    </div>
+                                </div>
+  
+                              </div>
+                                
+                                </div>
+      
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                </div>
+      
+      
+      
+                              </div>
+                              </div>
+
+
+                              <div id="projectCarousel3" class="carousel slide mt-3" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                 
+                                  <div class="carousel-item active">
+            
+                                    <div class="row gx-0">
+                                      <div class="col-md-6 col-lg-5 col-sm-6">
+                                          <div class="my-green px-sm-2 p-sm-1 p-lg-3 p-md-1 p-3 p-xl-3 h-100 rounded-start-4">
+                                              <p class="white-text f-size32 mt-sm-1 mt-lg-3 mt-md-1 mt-xl-3 mt-3">MONARCH ONE 1</p>
+                                              <p class="white-text f-size22 mb-sm-0 mb-3 mb-lg-3 mb-xl-3 mb-md-3">Contrary to popular belief, Lorem Ipsum is not simply random text. Lorem Ipsum is not simply random text.</p>
+                                              <a href="insideprojects.html"><button class="btn yellow-color rounded-4 sub-cat p-sm-1">Commercial</button></a>
+                                              <div class="d-flex mt-3 mt-md-3 mt-lg-3 mt-xl-3 mt-sm-0">
+                                                  <img src="images/local.svg" class="img-fluid  me-3 localimage">
+                                                  <p class="white-text my-1 sub-cat">Bahria Town Phase-7</p>
+                                              </div>
+              
+                                          </div>
+                                      </div>
+              
+                                      <div class="col-md-6 col-lg-7 col-sm-6">
+                                          <img src="images/project1.svg" class="img-fluid">
+                                      </div>
+                                  </div>
+                                    
+                                    </div>
+            
+                                    <div class="carousel-item">
+            
+                                      <div class="row gx-0">
+                                        <div class="col-md-6 col-lg-5 col-sm-6">
+                                            <div class="my-green px-sm-2 p-sm-1 p-lg-3 p-md-1 p-3 p-xl-3 h-100 rounded-start-4">
+                                                <p class="white-text f-size32 mt-sm-1 mt-lg-3 mt-md-1 mt-xl-3 mt-3">MONARCH ONE 2</p>
+                                                <p class="white-text f-size22 mb-sm-0 mb-3 mb-lg-3 mb-xl-3 mb-md-3">Contrary to popular belief, Lorem Ipsum is not simply random text. Lorem Ipsum is not simply random text.</p>
+                                                <a href="insideprojects.html"><button class="btn yellow-color rounded-4 sub-cat p-sm-1">Commercial</button></a>
+                                                <div class="d-flex mt-3 mt-md-3 mt-lg-3 mt-xl-3 mt-sm-0">
+                                                    <img src="images/local.svg" class="img-fluid  me-3 localimage">
+                                                    <p class="white-text my-1 sub-cat">Bahria Town Phase-7</p>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                
+                                        <div class="col-md-6 col-lg-7 col-sm-6">
+                                            <img src="images/project1.svg" class="img-fluid">
+                                        </div>
+                                    </div>
+                                      
+                                      </div>
+            
+                                      <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                      </div>
+            
+            
+            
+                                    </div>
+                                    </div>
+            
+                                
+            
+                                    <div id="projectCarousel4" class="carousel slide mt-3" data-bs-ride="carousel">
+                                      <div class="carousel-inner">
+                                       
+                                        <div class="carousel-item active">
+                  
+                                          <div class="row gx-0">
+                                            
+                    
+                                            <div class="col-md-6 col-lg-7 col-sm-6">
+                                                <img src="images/project2.svg" class="img-fluid">
+                                            </div>
+            
+                                            <div class="col-md-6 col-lg-5 col-sm-6">
+                                              <div class="my-yellow px-sm-2 p-sm-1 p-lg-3 p-md-1 p-3 p-xl-3 h-100 rounded-end-4">
+                                                  <p class=" f-size32 mt-sm-1 mt-lg-3 mt-md-1 mt-xl-3 mt-3">Garden City Tower</p>
+                                                  <p class=" f-size22 mb-sm-0 mb-3 mb-lg-3 mb-xl-3 mb-md-3">Contrary to popular belief, Lorem Ipsum is not simply random text. Lorem Ipsum is not simply random text.</p>
+                                                  <a href="insideprojects.html"><button class="btn my-green color-yellow rounded-4 sub-cat p-sm-1">Commercial</button></a>
+                                                  <div class="d-flex mt-3 mt-md-3 mt-lg-3 mt-xl-3 mt-sm-0">
+                                                      <img src="images/greenlocation.svg" class="img-fluid  me-3 localimage">
+                                                      <p class=" my-1 sub-cat">Bahria Town Phase-7</p>
+                                                  </div>
+                  
+                                              </div>
+                                          </div>
+            
+                                        </div>
+                                          
+                                          </div>
+                  
+                                          <div class="carousel-item">
+                  
+                                            <div class="row gx-0">
+                                              
+                      
+                                              <div class="col-md-6 col-lg-7 col-sm-6">
+                                                  <img src="images/project2.svg" class="img-fluid">
+                                              </div>
+              
+                                              <div class="col-md-6 col-lg-5 col-sm-6">
+                                                <div class="my-yellow px-sm-2 p-sm-1 p-lg-3 p-md-1 p-3 p-xl-3 h-100 rounded-end-4">
+                                                    <p class=" f-size32 mt-sm-1 mt-lg-3 mt-md-1 mt-xl-3 mt-3">Garden City Tower</p>
+                                                    <p class=" f-size22 mb-sm-0 mb-3 mb-lg-3 mb-xl-3 mb-md-3">Contrary to popular belief, Lorem Ipsum is not simply random text. Lorem Ipsum is not simply random text.</p>
+                                                    <a href="insideprojects.html"><button class="btn my-green color-yellow rounded-4 sub-cat p-sm-1">Commercial</button></a>
+                                                    <div class="d-flex mt-3 mt-md-3 mt-lg-3 mt-xl-3 mt-sm-0">
+                                                        <img src="images/greenlocation.svg" class="img-fluid  me-3 localimage">
+                                                        <p class=" my-1 sub-cat">Bahria Town Phase-7</p>
+                                                    </div>
+                    
+                                                </div>
+                                            </div>
+              
+                                          </div>
+                                            
+                                            </div>
+                  
+                                            <div class="carousel-indicators">
+                                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            </div>
+                  
+                  
+                  
+                                          </div>
+                                          </div>
+
+
+
+
+                </div>
+                <div class=" col-md-3 col-lg-3">
+                  <img src="images/downloadprofile.svg" class="img-fluid">
+                  <img src="images/customer.svg" class="img-fluid mt-5">
+                  <img src="images/Price.svg" class="img-fluid mt-5">
+                  <div class="card mt-5 p-1 p-md-3 p-xl-3 p-lg-3 border-0 shadow pt-3">
+                    <p class="text-center mb-0 sub-cat">Schedule a Visit 
+                      </p>
+                      <p class="text-center info">For More Information</p>
+
+                      <label class="sub-cat">Date</label>
+                      <div class="input-group" id="datepicker">
+                        <input type="text" class="form-control">
+                        <span class="input-group-append">
+                            <span class="input-group-text bg-white d-block">
+                                <i class="fa fa-calendar"></i>
+                            </span>
+                        </span>
+                    </div>
+
+                    <label class="sub-cat">Time</label>
+                    <input type="text" class="form-control">
+
+                    <p class="text-center mt-3 f-600 sub-cat">Your Information</p>
+
+                    <label class="sub-cat">Name</label>
+                    <input type="text" class="form-control">
+
+                    <label class="sub-cat">Phone</label>
+                    <input type="text" class="form-control">
+    
+                    <label class="sub-cat">Email</label>
+                    <input type="text" class="form-control">
+
+                    <label class="sub-cat">Message</label>
+                    <input type="text" class="form-control">
+
+                    <button class="btn my-green white-text mt-2 sub-cat">Submit a tour request</button>
+
+                  </div>
+                </div>
+            </div>
+
+
+            </div>
+
+            <section>
+              <div class="mt-5 mb-5">
+                <p class="partner mb-5 text-center">Our Collaborative Partner</p>
+            <div class="" style="background-color: rgb(250,250 ,250 );">
+              <div class="container">
+                <img src="images/partner.svg" class="img-fluid">
+              </div>
+            </div>
+              
+              </div>
+            </section>
+          
+            <section>
+              <div class="container mt-lg-5 pt-lg-5 mt-2 pt-2">
+                <img src="images/backimage.svg" class="img-fluid mb-0">
+               
+                  <div class="row dream-home">
+                    <div class="col-2"></div>
+                    <div class="col-8 back-image">
+            <div class="d-flex justify-content-center">
+              <div class="col-8 mt-4">
+                <p class="mt-5 mx-lg-5 dream-house pt-5 text-center">Let’s Find Your Dream House with Monarch International !</p>
+              </div>         
+            </div>
+            <div class="d-flex justify-content-center">
+              <button class="btn btn-light">Book your dream home</button>
+            </div>
+                      
+                    </div>
+            <div class="col-2">
+            
+            </div>
+                  </div>
+                
+              </div>
+            </section>
+            
+            <section class="blogs pb-5">
+            <div class="d-flex justify-content-center pt-5">
+              <p class="news">Blog & News from </p>
+              <img src="images/monarch.svg" class="img-fluid monar">
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 blogg">
+                  <a href="insideblog.html">
+                  <div class="card blog-card shadow border-0 rounded-4">
+                    <img src="images/blog1.svg" class="img-fluid">
+                    <p class="invest p-3 mb-0">Investment on Property, Profitable or Detrimental?</p>
+                    <div class="row px-3">
+                      <div class="col-1 mb-0">
+                        <img src="images/1.svg">
+                      </div>
+                     <div class="col-5">
+                      <p class="mb-0 text-nowrap">Dreamwell Team</p>
+                     </div>
+                     <div class="col-1">
+                      <img src="images/2.svg" class="ms-5">
+                    </div>
+                   <div class="col-5">
+                    <p class="mb-0 ms-5">10 March</p>
+                   </div>
+                   
+                    </div>
+                    <p class="p-3 green-text mb-0">Read More</p>
+                  </div>
+                </a>
+                </div>
+            
+                <div class="col-lg-4 blogg">
+                  <a href="insideblog.html">
+                  <div class="card blog-card shadow border-0 rounded-4">
+                    <img src="images/blog2.svg" class="img-fluid">
+                    <p class="invest p-3 mb-0">5 Tips on Choosing Comfortable Housing for Families</p>
+                    <div class="row px-3">
+                      <div class="col-1 mb-0">
+                        <img src="images/1.svg">
+                      </div>
+                     <div class="col-5">
+                      <p class="mb-0 text-nowrap">Dreamwell Team</p>
+                     </div>
+                     <div class="col-1">
+                      <img src="images/2.svg" class="ms-5">
+                    </div>
+                   <div class="col-5">
+                    <p class="mb-0 ms-5">10 March</p>
+                   </div>
+                   
+                    </div>
+                    <p class="p-3 green-text mb-0">Read More</p>
+                  </div>
+                  </a>
+                </div>
+            
+                <div class="col-lg-4 blogg">
+                  <a href="insideblog.html">
+                  <div class="card blog-card shadow border-0 rounded-4">
+                    <img src="images/blog3.svg" class="img-fluid">
+                    <p class="invest p-3 mb-0">5 Most Comfortable Areas for Living Space in London</p>
+                    <div class="row px-3">
+                      <div class="col-1 mb-0">
+                        <img src="images/1.svg">
+                      </div>
+                     <div class="col-5">
+                      <p class="mb-0 text-nowrap">Dreamwell Team</p>
+                     </div>
+                     <div class="col-1">
+                      <img src="images/2.svg" class="ms-5">
+                    </div>
+                   <div class="col-5">
+                    <p class="mb-0 ms-5">10 March</p>
+                   </div>
+                   
+                    </div>
+                    <p class="p-3 green-text mb-0">Read More</p>
+                  </div>
+                  </a>
+                </div>
+            
+              </div>
+            </div>
+            
+            
+            </section>
+          
+      
+            <section class="footer pt-5">
+              <div class="container">
+                
+              
+                <div class="row">
+                  <div class="col-lg-4">
+                    
+                    <img src="images/logo.svg" class="img-fluid footerlogo">
+                    <div class="d-flex mt-5">
+                      <img src="images/Vector1.svg" class="me-2">
+                      <p class=" my-1 text">Realtor Office Building 5F</p>
+                    </div>
+                    <p class="text ms-3">123 Anywhere St., Any City, 12345 Any State</p>
+                    <div class="d-flex">
+                      <img src="images/Vector2.svg" class="me-2">
+                      <p class=" my-1 text">123-456-7890</p>
+                    </div>
+                    <div class="d-flex">
+                      <img src="images/Vector3.svg" class="me-2">
+                      <p class=" my-1 text">support@dreamwell.com</p>
+                    </div>
+              
+                  </div>
+              
+                  <div class="col-lg-2 mt-lg-5 pt-lg-5 mt-2 pt-2 mt-sm-2 pt-sm-2 footlink">
+                    <p class="quick">Quick Links</p>
+                    <a href="about.html">
+                      <p class="text">About Us</p>
+                    </a>
+                    <p class="text">Terms & Conditions</p>
+                    <p class="text">Guide</p>
+                    <p class="text">Support Center</p>
+                    <a href="blog.html"><p class="text">Blog</p></a>
+                    <a href="contact.html"><p class="quick">Contact </p></a>
+                    <p class="text">Privacy Policy</p>
+                  </div>
+              
+                  <div class="col-lg-2 mt-lg-5 pt-lg-5 mt-2 pt-2 mt-sm-2 pt-sm-2">
+                    <p class="quick">Discover</p>
+                    <p class="text">Rawalpindi 
+                      </p>
+                    <p class="text">Islamabad</p>
+                    <p class="text">Pakistan</p>
+                    <p class="text">Bahria Town</p>
+                    <p class="text">DHA islamabad</p>
+                    <p class="text">PC</p>
+                  </div>
+              
+                  <div class="col-lg-4 mt-lg-5 pt-lg-4 mt-2 pt-2 mt-sm-2 pt-sm-2">
+              
+                    <p class="text latest">Get the Latest Information about properties from <span class="quick">MONARCH INTERNATIONAL</span></p>
+              
+                    <div class="input-group mb-3">
+                      <input type="text" style="color: white;" class="form-control bg-transparent" placeholder="Enter your email here" aria-label="Recipient's username" aria-describedby="button-addon2">
+                      <button class="btn yellow-color" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+              
+                    <p class="text need">Need any Help!</p>
+                    <p class="text">Chat with our live agent</p>
+                    <p class="quick num">+92-311-000-22-33</p>
+              
+                  </div>
+              
+              
+                </div>
+              
+                
+                  <hr class="hr-white">
+                
+                  <div class="row d-flex justify-content-between">
+                    <div class="col-lg-4">
+                      <ul class="list-unstyled white-text pb-lg-5">
+                        <li class="d-inline me-2">Follow us</li>
+                        <li class="d-inline"><img src="images/facebook.svg" class="img-fluid"></li>
+                        <li class="d-inline"><img src="images/Youtube.svg" class="img-fluid"></li>
+                        <li class="d-inline"><img src="images/Linkedin.svg" class="img-fluid"></li>
+                        <li class="d-inline"><img src="images/twitter.svg" class="img-fluid"></li>
+                        <li class="d-inline"><img src="images/Instagram.svg" class="img-fluid"></li>
+                  
+                    </ul>
+                    </div>
+              
+                  <div class="col-lg-5">
+                    <ul class="list-unstyled white-text pb-lg-5">
+                      <li class="d-inline">Privacy Policy</li>
+                      <li class="d-inline">|</li>
+                      <li class="d-inline">Term & Conditions</li>
+                      <li class="d-inline">|</li>
+                      <li class="d-inline">Cookie Policy</li>
+                
+                  </ul>
+                  </div>
+              
+                  </div>
+                  
+                
+              
+              
+              
+              </div>
+              </section>
+
+            </section>
+
+          
+    <!-- nquiry Modal code  -->
+
+
+    <div class="modal fade" id="EnquiryModal" tabindex="-1" aria-labelledby="#EnquiryModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          
+          <div class="modal-body">
+
+            <div class="mt-4 mb-3">
+<label for="exampleFormControlInput1" class="form-label">Name</label>
+<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Dowe">
+</div>
+
+            <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Phone</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="+3131312">
+        </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light closebtn" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn submitbtn">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+      <!-- Valuation Modal code  -->
+
+
+      <div class="modal fade" id="ValuationModal" tabindex="-1" aria-labelledby="#ValuationModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            
+            <div class="modal-body">
+
+              <div class="mt-4 mb-3">
+<label for="exampleFormControlInput1" class="form-label">Name</label>
+<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Dowe">
+</div>
+
+              <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Phone</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="+3131312">
+          </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-light closebtn" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn submitbtn">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        
+            
+            
+            
+
+            </body>
+
+            </html>
